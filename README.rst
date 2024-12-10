@@ -173,7 +173,7 @@ Similarly, the SDK also supports API-KEY authentication methods,
 
 .. code:: python
 
-   from zoomeye.sdk import ZoomEye
+   from zoomeyeai.sdk import ZoomEye
 
    zm = ZoomEye(api_key="01234567-acbd-00000-1111-22222222222")
 
