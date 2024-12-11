@@ -7,7 +7,7 @@ network devices using a browser https://www.zoomeye.ai.
 ``ZoomEye-python`` is a Python library developed based on the
 ``ZoomEye API``. It provides the ``ZoomEye command line`` mode and can
 also be integrated into other tools as an ``SDK``. The library allows
-technicians to **search**, **filter**, and **export** ``ZoomEye`` data
+technicians to **search** ``ZoomEye`` data
 more conveniently.
 
 
@@ -84,7 +84,7 @@ command, as follows:
     "username:": "",
     "phone", "",
     "created_at:": ""
-    quota: {
+    "quota": {
         "plan": "" ,                # service level
         "end_date": "",             # service end date
         "points": "",               # This month remaining free amount
