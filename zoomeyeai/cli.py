@@ -55,11 +55,6 @@ def main():
     parser_info = subparsers.add_parser("info", help="Show ZoomEye account info")
     parser_info.set_defaults(func=core.info)
 
-    """
-    version:2.3.0
-    change_log:
-        update search
-    """
     search_v2_parser = subparsers.add_parser("search",
                                              help="get network asset information based on query conditions.")
     search_v2_parser.add_argument("dork", type=str, help="search key word(eg=baidu.com)", default=None)
