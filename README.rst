@@ -143,19 +143,15 @@ will explain and demonstrate below.
 
 The ``-figure`` parameter is a data visualization parameter. This parameter provides two display methods: ``pie (pie chart)`` and ``hist (histogram)``. The data will still be displayed without specifying it. When ``-figure`` is specified , Only graphics will be displayed. The pie chart is as follows:
 
-.. figure:: https://raw.githubusercontent.com/zoomeye-ai/ZoomEye-python/master/images/image-20210205004653480.png
-    :width: 500px
-
-.. figure:: https://raw.githubusercontent.com/zoomeye-ai/ZoomEye-python/master/images/image-20210205005016399.png
+.. figure:: https://raw.githubusercontent.com/zoomeye-ai/ZoomEye-python/master/images/pie.png
     :width: 500px
 
 The histogram is as follows:
 
-.. figure:: https://raw.githubusercontent.com/zoomeye-ai/ZoomEye-python/master/images/image-20210205004806739.png
+.. figure:: https://raw.githubusercontent.com/zoomeye-ai/ZoomEye-python/master/images/hist.png
     :width: 500px
 
-.. figure:: https://raw.githubusercontent.com/zoomeye-ai/ZoomEye-python/master/images/image-20210205005117712.png
-    :width: 500px
+
 
 
 0x03 use SDK
@@ -212,13 +208,13 @@ The following are the interfaces and instructions provided by the SDK:
 ~~~~~~~~~~
 
 | **1.How to enter dork with quotes?**
-| When using cli to search, you will encounter dork with quotes, for example: ``"<body style=\"margin:0;padding:0\"> <p align=\"center\"> <iframe src=\ "index.xhtml\""``, when dork contains quotation marks or multiple quotation marks, the outermost layer of dork must be wrapped in quotation marks to indicate a parameter as a whole, otherwise command line parameter parsing will cause problems. Then the correct search method for the following dork should be: ``'"<body style=\"margin:0;padding:0\"> <p align=\"center\"> <iframe src=\"index.xhtml\" "'``.
+| When using cli to search, you will encounter dork with quotes, for example: ``"<body style=\"margin:0;padding:0\"> <p align=\"center\"> <iframe src=\"index.xhtml\""``, when dork contains quotation marks or multiple quotation marks, the outermost layer of dork must be wrapped in quotation marks to indicate a parameter as a whole, otherwise command line parameter parsing will cause problems. Then the correct search method for the following dork should be: ``'"<body style=\"margin:0;padding:0\"> <p align=\"center\"> <iframe src=\"index.xhtml\" "'``.
 
-.. figure:: https://raw.githubusercontent.com/zoomeye-ai/ZoomEye-python/master/images/image-20210205131713799.png
+.. figure:: https://raw.githubusercontent.com/zoomeye-ai/ZoomEye-python/master/images/web.png
     :width: 500px
 
 
-.. figure:: https://raw.githubusercontent.com/zoomeye-ai/ZoomEye-python/master/images/image-20210205131802799.png
+.. figure:: https://raw.githubusercontent.com/zoomeye-ai/ZoomEye-python/master/images/escape.png
     :width: 500px
 
 
@@ -231,8 +227,6 @@ The following are the interfaces and instructions provided by the SDK:
 | Zoomeye Team
 | Time: 2024.12.05
 
-.. |asciicast| image:: https://asciinema.org/a/qyDaJw9qQc7UjffD04HzMApWa.svg
-   :target: https://asciinema.org/a/qyDaJw9qQc7UjffD04HzMApWa
 
 
 
