@@ -107,7 +107,7 @@ search keyword (``dork``), let's perform a simple search below:
    total: 1
 
 Using the ``search`` command is as simple as using a browser to search
-in ``ZoomEye``. by default, we display five more important fields. users
+in ``ZoomEye``. by default, we display four more important fields. users
 can use these data to understand the target information:
 
 ::

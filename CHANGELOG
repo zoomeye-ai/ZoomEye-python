@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
+## [3.0.1] - 2025-02-06
+### 📝 **Documentation Update**
+- **Updated Documentation**: Refined and clarified documentation to reflect the latest API changes.
+- **Added Usage Examples**: New code examples added to showcase common use cases.
+- **Improved Readability**: Enhanced structure and layout for easier navigation and understanding.
+
+---
+
 ## [3.0.0] - 2024-12-05
 ### 🚨 **Breaking Changes**
 - **New API Implementation**: Introduced a completely new API structure.

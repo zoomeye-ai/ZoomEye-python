@@ -32,7 +32,7 @@ def init_key(key):  # 初始化API密钥并将其保存在本地配置文件中
     key_file = zoomeye_dir + "/apikey"
     # display the remaining resources of the current account
     user_data = zoom.userinfo()
-    print(user_data)
+    # print(user_data)
     if user_data.get("code") == 60000:
         show.printf("Role: {}".format(user_data.get('data', {}).get('subscription', {}).get('plan', '')))
         show.printf("Points: {}".format(user_data.get('data', {}).get('subscription', {}).get("points", 0)))
